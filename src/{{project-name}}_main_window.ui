@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <object class="GtkApplicationWindow" id="window">
+    <property name="title" translatable="yes">Builder Basics</property>
+    <property name="default-width">320</property>
+    <property name="default-height">240</property>
+    <child>
+      <object class="GtkButton" id="button">
+        <property name="label" translatable="yes">Hello {{project-name}}</property>
+      </object>
+    </child>
+  </object>
+</interface>
