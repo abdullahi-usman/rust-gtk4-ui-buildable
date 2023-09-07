@@ -1,5 +1,6 @@
 [placeholders]
 description = { type="string", prompt="Description for the crate?" }
+project-id = { type="string", prompt="Project ID:(e.g com.exmple.example)"}
 #ask_for_string = { type="bool", prompt="Make a choice too?", default=true }
 
 #[conditional.'ask_for_string'.placeholders.choice]
