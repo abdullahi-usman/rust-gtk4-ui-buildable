@@ -20,6 +20,7 @@ fn build_ui(application: &Application) {
     let bigbutton: Button = builder.object("button").expect("Couldn't get button");
 
     bigbutton.connect_clicked(glib::clone!(@weak window => move |_| {
+    
         gtk::AlertDialog::builder()
             .modal(true)
             .message("Thank you for trying this example")
