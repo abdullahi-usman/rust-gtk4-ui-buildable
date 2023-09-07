@@ -1,3 +1,5 @@
+extern crate gtk;
+
 use gtk::prelude::*;
 use gtk::{glib, Application, ApplicationWindow, Builder, Button};
 
