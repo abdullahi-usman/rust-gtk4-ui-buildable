@@ -5,4 +5,4 @@ version = "0.1.0"
 
 [dependencies]
 gettext-rs = { version = "0.7", features = ["gettext-system"] }
-gtk = { version = "0.7", package = "gtk4" }
+gtk = { version = "0.7", package = "gtk4", features = ["4_14", "4_12", "4_10"] }
